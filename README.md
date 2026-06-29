@@ -10,9 +10,9 @@ Lower/sub- ($l_i$), upper/super- ($u4_i$) and main- ($d_i$) diagonals. And cycli
 
 With $\alpha=\beta=0$, the system is solved using the Llewellyn Thomas algortihm.
 
-If $$\alpha\ne0$$ and/or $$\beta\ne0$$, the matrix is cyclic, and is solved using the Sherman-Morrison formula.
+If $\alpha\ne0$ and/or $\beta\ne0$, the matrix is cyclic, and is solved using the Sherman-Morrison formula.
 
-The cyclic solver uses the property that the matrix can be wrttien as $$M=A+uv^T$$. With $$A$$ being a non-cyclic matrix, and $\gamma=d_1$, $u=\\{\gamma,0,...,0,\beta\\}$, $$v=\\{1,0,...,0,\alpha/\gamma\\}$$.
+The cyclic solver uses the property that the matrix can be wrttien as $M=A+uv^T$. With $A$ being a non-cyclic matrix, and $\gamma=d_1$, $u=\[\gamma,0,...,0,\beta\]$, $v=\[1,0,...,0,\alpha/\gamma\]$.
 
 ##### Usage
 
